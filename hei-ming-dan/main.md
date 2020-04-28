@@ -14,7 +14,6 @@
 1. 当加入黑名单时，您照常可以参加活动。
 1. 再加入黑名单时还违反规定，视情况严重性将做出惩罚，有可能被踢出团队！
 
-
 ---
 
 最后，感谢您选择加入[AK IOI is our dream](https://www.luogu.com.cn/team/26384)团队！希望您像团队名一样：AK IOI！
@@ -24,9 +23,6 @@
 ### 声明：本规定为原创！！
 
 **©2020-2020 [AK IOI is our dream](https://www.luogu.com.cn/team/26384) - 版权所有**
-
 **by [AK IOI is our dream](https://www.luogu.com.cn/team/26384)**
-
 **All content copyright [AK IOI is our dream](https://www.luogu.com.cn/team/26384)**
-
 **© 2020-2020 • All rights reserved.**
