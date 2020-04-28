@@ -79,7 +79,7 @@
       }
       //2.如果实例化成功，就调用open（）方法：
       if (xmlHttp != null) {
-          xmlHttp.open("get", window.document.location.href+"main.md", true);
+          xmlHttp.open("get", window.document.location.href+"main.md", false);
           xmlHttp.send();
           xmlHttp.onreadystatechange = doResult; //设置回调函数                 
       }
