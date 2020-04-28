@@ -1,4 +1,5 @@
-# [AK IOI is our dream](https://www.luogu.com.cn/team/26384) 团队入团须知
+
+### [AK IOI is our dream](https://www.luogu.com.cn/team/26384) 团队入团须知
 
 ---
 
