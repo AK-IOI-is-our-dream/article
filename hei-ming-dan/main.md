@@ -1,4 +1,4 @@
-# **[AK IOI is our dream 团队](https://www.luogu.com.cn/team/26384)黑名单规定**
+### **[AK IOI is our dream 团队](https://www.luogu.com.cn/team/26384)黑名单规定**
 
 ---
 
