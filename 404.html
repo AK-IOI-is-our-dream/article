@@ -83,9 +83,10 @@
           if (xmlHttp.readyState == 4) { //4表示执行完成
               if (xmlHttp.status == 200) { //200表示执行成功
                   var xxx=xmlHttp.responseText;
-                  xxx=xxx.replace(/\r\n/g,"\n<br/>\n");
-                  xxx=xxx.replace(/\n/g,"\n<br/>\n");  
-                  document.getElementById("resText").innerHTML = marked(xxx);
+		  xxx=marked(xxx);
+                  xxx=xxx.replace(/\r\n/g,"<br/>");
+                  xxx=xxx.replace(/\n/g,"<br/>");  
+                  document.getElementById("resText").innerHTML = xxx;
                   document.getElementById("biaoti").innerHTML = "文章";
               }
           }
