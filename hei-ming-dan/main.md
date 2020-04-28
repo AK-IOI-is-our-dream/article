@@ -23,9 +23,6 @@
 ### 声明：本规定为原创！！
 
 **©2020-2020 [AK IOI is our dream](https://www.luogu.com.cn/team/26384) - 版权所有**
-
 **by [AK IOI is our dream](https://www.luogu.com.cn/team/26384)**
-
 **All content copyright [AK IOI is our dream](https://www.luogu.com.cn/team/26384)**
-
 **© 2020-2020 • All rights reserved.**
