@@ -6,10 +6,7 @@
 
 二、 获得AK IOI is our dream纪念币的形式
 
-
-
 ------------
-
 
 一、AK IOI is our dream纪念币的类型：
 
