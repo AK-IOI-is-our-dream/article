@@ -86,8 +86,6 @@
               if (xmlHttp.status == 200) { //200表示执行成功
                   var xxx=xmlHttp.responseText;
 		  xxx=marked(xxx);
-                  xxx=xxx.replace(/\r/g,"1<br/>");
-                  //xxx=xxx.replace(/\n/g,"<br/>");  
                   document.getElementById("resText").innerHTML = xxx;
                   document.getElementById("biaoti").innerHTML = "文章";
               }
@@ -109,7 +107,7 @@
 			</div>
 			-->
 			<div class="col-md-12 margin-top-md text-center font-size-sm text-upercase">
-				<p>©2020 AK IOI is our dream 团队 版权所有</p>
+				<p>©2020 AK IOI is our dream 团队 版权所有 | 由<a href="https://www.luogu.com.cn/user/257601">jyb666</a>进行维护</p>
 			</div>
 		</div>
 	</div>
