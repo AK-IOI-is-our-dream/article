@@ -56,7 +56,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 text-center">
-				<h2 id="biaoti" class="section-title">404</h2>
+				<h2 id="biaoti" class="section-title">文章读取中...</h2>
 			</div>
       <div id="resText"></div>
 		</div>
@@ -66,30 +66,36 @@
 <script type="text/javascript" >
   
   function ajax() {
-      //1.声明异步请求对象：
       var xmlHttp = null;
       if (window.ActiveXObject) {
-          // IE6, IE5 浏览器执行代码
           xmlHttp = new ActiveXObject("Microsoft.XMLHTTP");
       } else if (window.XMLHttpRequest) {
-          // IE7+, Firefox, Chrome, Opera, Safari 浏览器执行代码
           xmlHttp = new XMLHttpRequest();
       }
-      //2.如果实例化成功，就调用open（）方法：
       if (xmlHttp != null) {
           xmlHttp.open("get", window.document.location.href+"main.md", true);
           xmlHttp.send();
-          xmlHttp.onreadystatechange = doResult; //设置回调函数                 
+          xmlHttp.onreadystatechange = doResult;                
       }
       function doResult() {
           if (xmlHttp.readyState == 4) { //4表示执行完成
               if (xmlHttp.status == 200) { //200表示执行成功
                   var xxx=xmlHttp.responseText;
-		  xxx=marked(xxx);
-                  document.getElementById("resText").innerHTML = xxx;
+		              xxx=marked(xxx);
                   document.getElementById("biaoti").innerHTML = "文章";
+                  document.getElementById("resText").innerHTML = xxx;
               }
+							else
+							{
+                  document.getElementById("biaoti").innerHTML = "404";
+                  document.getElementById("resText").innerHTML = "<h3>找不到文章，可能是生成失败了，请稍后刷新...</h3>";
+							}
           }
+					else
+					{
+              document.getElementById("biaoti").innerHTML = "404";
+              document.getElementById("resText").innerHTML = "<h3>找不到文章，可能是生成失败了，请稍后刷新...</h3>";
+					}
       }
   }
   ajax();
