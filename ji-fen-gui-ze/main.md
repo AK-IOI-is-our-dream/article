@@ -6,7 +6,10 @@
 
 二、 获得AK IOI is our dream纪念币的形式
 
+
+
 ------------
+
 
 一、AK IOI is our dream纪念币的类型：
 
@@ -24,7 +27,7 @@
 
 - `打卡加币`
 	
-	每天，在团队中的[团队积分打卡处](https://www.luogu.com.cn/discuss/show/219952)@任何一位高管，即可获得`2 District`
+	**每天，在团队中的[团队积分打卡处](https://www.luogu.com.cn/discuss/show/220039)@任何一位高管，即可获得`2 District`，自己身为高管的@其他高管**
     
     签到一天仅能获得`2 District` ,多余不给。
     
@@ -61,6 +64,7 @@
 
 	5.不允许恶意评分，发现恶意评分，撤销奖励，倒扣3 Municipal
 
+[贡献题目细则](https://www.luogu.com.cn/paste/qpmea9dr)
 
 - 比赛加币
 	
