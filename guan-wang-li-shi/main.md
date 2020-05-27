@@ -12,7 +12,7 @@
   * 积分规则
 * 2020/5/24 文章生成更新（现在版本2.0.0）
   * 改用标签 `<meta http-equiv="refresh" content="60" />`
-* 2020/5/24 增加排行榜（不定期更新，可以每天在洛谷上叫[jyb666](https://www.luogu.com.cn/user/257601)）
+* 2020/5/24 增加排行榜（不定期更新，可以每天在洛谷上[私信jyb666](https://www.luogu.com.cn/chat?uid=257601)）
   * [排行榜地址](https://ak-ioi-is-our-dream.github.io/pxb.html)
 
 by [jyb666](https://www.luogu.com.cn/user/257601)
